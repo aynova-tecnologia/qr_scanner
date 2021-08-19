@@ -1,7 +1,5 @@
 library qr_scanner;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/modules/leitor_qr/leitor_qr_controller.dart';
+export 'src/modules/leitor_qr/leitor_qr_module.dart';
+export 'src/modules/leitor_qr/leitor_qr_page.dart';
