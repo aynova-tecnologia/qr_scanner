@@ -7,7 +7,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.7.0"
+    version: "2.8.2"
   bloc_pattern:
     dependency: "direct main"
     description:
@@ -28,7 +28,7 @@ packages:
       name: characters
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "1.2.0"
   charcode:
     dependency: transitive
     description:
@@ -87,7 +87,14 @@ packages:
       name: matcher
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.10"
+    version: "0.12.11"
+  material_color_utilities:
+    dependency: transitive
+    description:
+      name: material_color_utilities
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.3"
   meta:
     dependency: transitive
     description:
@@ -105,10 +112,10 @@ packages:
   qrcode:
     dependency: "direct main"
     description:
-      path: qrcode
-      ref: "803eccd6033ee48dd4cde30f8e57ac2bfd5288a6"
-      resolved-ref: "803eccd6033ee48dd4cde30f8e57ac2bfd5288a6"
-      url: "https://github.com/federicoviceconti/qrcode.git"
+      path: "."
+      ref: HEAD
+      resolved-ref: "2081f88910231b3265257e97214557091cdca5f0"
+      url: "https://github.com/FabioZvir/qrcode.git"
     source: git
     version: "1.0.5"
   sky_engine:
@@ -157,7 +164,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.1"
+    version: "0.4.8"
   typed_data:
     dependency: transitive
     description:
@@ -171,7 +178,7 @@ packages:
       name: vector_math
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.1"
 sdks:
-  dart: ">=2.12.0 <3.0.0"
+  dart: ">=2.14.0 <3.0.0"
   flutter: ">=1.17.0"
