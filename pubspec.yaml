@@ -15,12 +15,12 @@ dependencies:
   bloc_pattern: ^3.0.0
   qrcode: #^1.0.4
     git: 
-      url: https://github.com/FabioZvir/qrcode.git
+      url: https://github.com/aynova-tecnologia/qrcode.git
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  flutter_lints: ^3.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
