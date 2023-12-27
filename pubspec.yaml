@@ -15,7 +15,7 @@ dependencies:
   bloc_pattern: ^3.0.0
   qrcode: #^1.0.4
     git: 
-      url: https://github.com/aynova-tecnologia/qrcode.git
+      url: https://github.com/FabioZvir/qrcode.git
 
 dev_dependencies:
   flutter_test:

@@ -120,8 +120,8 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: e6c5af5d218bda051bf93f5efd375e6179608e5a
-      url: "https://github.com/aynova-tecnologia/qrcode.git"
+      resolved-ref: "748abd0b86cb61e8e80e72e2ce8cac2adc007834"
+      url: "https://github.com/FabioZvir/qrcode.git"
     source: git
     version: "1.0.5"
   sky_engine:
@@ -194,5 +194,5 @@ packages:
     source: hosted
     version: "0.4.0"
 sdks:
-  dart: ">=3.2.0-194.0.dev <3.3.0"
+  dart: ">=3.2.0-194.0.dev <4.0.0"
   flutter: ">=1.17.0"
