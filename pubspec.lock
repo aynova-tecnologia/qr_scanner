@@ -120,7 +120,7 @@ packages:
     description:
       path: qrcode
       ref: HEAD
-      resolved-ref: aef333c01d8bb670c1f56a283670ab968d1f7f0b
+      resolved-ref: c45225241228c9cd7449285277868b9834b09ad0
       url: "https://github.com/aynova-tecnologia/qrcode.git"
     source: git
     version: "1.0.5"
@@ -194,5 +194,5 @@ packages:
     source: hosted
     version: "0.4.0"
 sdks:
-  dart: ">=3.2.0-194.0.dev <4.0.0"
+  dart: ">=3.2.0-194.0.dev <3.3.0"
   flutter: ">=1.17.0"
