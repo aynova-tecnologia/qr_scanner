@@ -118,10 +118,10 @@ packages:
   qrcode:
     dependency: "direct main"
     description:
-      path: qrcode
+      path: "."
       ref: HEAD
-      resolved-ref: "15a2ecffb87e7c45de2b959f9abde743388d74e8"
-      url: "https://github.com/aynova-tecnologia/qrcode.git"
+      resolved-ref: "9a2d0f96cc10e1301fb5b6dc06dffb0cf4407e9c"
+      url: "https://github.com/FabioZvir/qrcode.git"
     source: git
     version: "1.0.5"
   sky_engine:
