@@ -13,8 +13,9 @@ dependencies:
     sdk: flutter
 
   bloc_pattern: ^3.0.0
-  qrcode:
+  qrcode: #^1.0.4
     git: 
+      path: 'qrcode'
       url: https://github.com/FabioZvir/qrcode.git
 
 dev_dependencies:
