@@ -16,7 +16,7 @@ dependencies:
   qrcode: #^1.0.4
     git: 
       path: 'qrcode'
-      url: https://github.com/FabioZvir/qrcode.git
+      url: https://github.com/aynova-tecnologia/qrcode.git
 
 dev_dependencies:
   flutter_test:
