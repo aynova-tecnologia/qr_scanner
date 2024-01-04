@@ -120,7 +120,7 @@ packages:
     description:
       path: qrcode
       ref: HEAD
-      resolved-ref: "0f7dfc89dee51f1e1b14cd72dfc5f51c247f81ac"
+      resolved-ref: c1688377fcefbae45fd8c8ed2bbbfc51965ce80b
       url: "https://github.com/aynova-tecnologia/qrcode.git"
     source: git
     version: "1.0.5"
