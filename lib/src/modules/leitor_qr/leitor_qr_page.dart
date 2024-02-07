@@ -10,10 +10,10 @@ class LeitorQrPage extends StatefulWidget {
   const LeitorQrPage({Key? key, this.title = "Leitor Qr"}) : super(key: key);
 
   @override
-  _LeitorQrPageState createState() => _LeitorQrPageState();
+  LeitorQrPageState createState() => LeitorQrPageState();
 }
 
-class _LeitorQrPageState extends State<LeitorQrPage> {
+class LeitorQrPageState extends State<LeitorQrPage> {
   final LeitorQrController controller =
       LeitorQrModule.to.bloc<LeitorQrController>();
 
