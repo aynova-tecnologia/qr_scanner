@@ -62,6 +62,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_barcode_scanner:
+    dependency: "direct main"
+    description:
+      name: flutter_barcode_scanner
+      sha256: a4ba37daf9933f451a5e812c753ddd045d6354e4a3280342d895b07fecaab3fa
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -70,6 +78,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
+  flutter_plugin_android_lifecycle:
+    dependency: transitive
+    description:
+      name: flutter_plugin_android_lifecycle
+      sha256: b068ffc46f82a55844acfa4fdbb61fad72fa2aef0905548419d97f0f95c456da
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.17"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -120,8 +136,8 @@ packages:
     description:
       path: qrcode
       ref: HEAD
-      resolved-ref: c1688377fcefbae45fd8c8ed2bbbfc51965ce80b
-      url: "https://github.com/aynova-tecnologia/qrcode.git"
+      resolved-ref: "013b147cbb99fb6a44e16d102b1da4240d3f8bf9"
+      url: "https://github.com/fabioZvir/qrcode.git"
     source: git
     version: "1.0.5"
   sky_engine:
@@ -195,4 +211,4 @@ packages:
     version: "0.4.0"
 sdks:
   dart: ">=3.2.0-194.0.dev <4.0.0"
-  flutter: ">=1.17.0"
+  flutter: ">=3.7.0"

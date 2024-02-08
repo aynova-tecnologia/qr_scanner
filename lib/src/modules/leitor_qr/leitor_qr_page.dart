@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:qrcode/qrcode.dart';
+import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 
 import 'leitor_qr_controller.dart';
 import 'leitor_qr_module.dart';
@@ -10,27 +10,34 @@ class LeitorQrPage extends StatefulWidget {
   const LeitorQrPage({Key? key, this.title = "Leitor Qr"}) : super(key: key);
 
   @override
-  LeitorQrPageState createState() => LeitorQrPageState();
+  _LeitorQrPageState createState() => _LeitorQrPageState();
 }
 
-class LeitorQrPageState extends State<LeitorQrPage> {
+class _LeitorQrPageState extends State<LeitorQrPage> {
   final LeitorQrController controller =
       LeitorQrModule.to.bloc<LeitorQrController>();
 
   @override
   void initState() {
     super.initState();
-
-    controller.captureController.onCapture((data) {
-      controller.captureController.pause();
-      Navigator.pop(context, data);
-    });
+    _scanQR();
   }
 
-  @override
-  void dispose() {
-    controller.captureController.pause();
-    super.dispose();
+  Future<void> _scanQR() async {
+    try {
+      String barcode = await FlutterBarcodeScanner.scanBarcode(
+        "#ff6666", // Cor de fundo do cabeçalho
+        "Cancelar", // Texto do botão de cancelamento
+        true, // Mostrar botão de flash
+        ScanMode.QR, // Modo de digitalização (QR, BARCODE, etc.)
+      );
+
+      if (barcode.isNotEmpty && barcode != '-1') {
+        Navigator.pop(context, barcode);
+      }
+    } catch (e) {
+      print('Erro ao escanear código QR: $e');
+    }
   }
 
   @override
@@ -40,51 +47,9 @@ class LeitorQrPageState extends State<LeitorQrPage> {
         body: Stack(
           alignment: Alignment.center,
           children: <Widget>[
-            QRCaptureView(controller: controller.captureController),
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: _buildToolBar(),
-            )
           ],
         ),
       ),
-    );
-  }
-
-  Widget _buildToolBar() {
-    return Row(
-      mainAxisSize: MainAxisSize.max,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        IconButton(
-          onPressed: () {
-            setState(() {
-              if (controller.isPaused) {
-                controller.isPaused = false;
-                controller.captureController.resume();
-              } else {
-                controller.isPaused = true;
-                controller.captureController.pause();
-              }
-            });
-          },
-          icon: Icon(controller.isPaused ? Icons.play_arrow : Icons.pause),
-          //child: Text('pause'),
-        ),
-        IconButton(
-          onPressed: () {
-            if (controller.isTorchOn) {
-              controller.captureController.torchMode = CaptureTorchMode.off;
-            } else {
-              controller.captureController.torchMode = CaptureTorchMode.on;
-            }
-            setState(() {
-              controller.isTorchOn = !controller.isTorchOn;
-            });
-          },
-          icon: Icon(controller.isTorchOn ? Icons.flash_on : Icons.flash_off),
-        ),
-      ],
     );
   }
 }

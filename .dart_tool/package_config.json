@@ -50,10 +50,22 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "flutter_barcode_scanner",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_barcode_scanner-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_lints",
       "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "flutter_plugin_android_lifecycle",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "flutter_test",
@@ -93,7 +105,7 @@
     },
     {
       "name": "qrcode",
-      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/git/qrcode-c1688377fcefbae45fd8c8ed2bbbfc51965ce80b/qrcode",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/git/qrcode-013b147cbb99fb6a44e16d102b1da4240d3f8bf9/qrcode",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -158,7 +170,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-02-08T11:57:01.609385Z",
+  "generated": "2024-02-08T18:50:04.244814Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }

@@ -12,11 +12,13 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_barcode_scanner: ^2.0.0
+
   bloc_pattern: ^3.0.0
   qrcode: #^1.0.4
     git: 
       path: 'qrcode'
-      url: https://github.com/aynova-tecnologia/qrcode.git
+      url: https://github.com/fabioZvir/qrcode.git
 
 dev_dependencies:
   flutter_test:
