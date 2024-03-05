@@ -105,7 +105,7 @@
     },
     {
       "name": "qrcode",
-      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/git/qrcode-9dc485cfeec7951395faa3652917a7ac09a80a19/qrcode",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/git/qrcode-366b03e190a27d2f7d52d067c7abb74accb3ce0b/qrcode",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -170,7 +170,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-03-05T17:47:43.948920Z",
+  "generated": "2024-03-05T18:42:01.712252Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }
