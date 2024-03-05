@@ -136,7 +136,7 @@ packages:
     description:
       path: qrcode
       ref: HEAD
-      resolved-ref: b19943a01eb1bf7cea856f7e086ce4a12c063d03
+      resolved-ref: ef8888caa7675e3c989f6fe8f16182a6be20688a
       url: "https://github.com/fabioZvir/qrcode.git"
     source: git
     version: "1.0.5"
