@@ -74,6 +74,24 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "leak_tracker",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_flutter_testing-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/lints-3.0.0",
       "packageUri": "lib/",
@@ -87,7 +105,7 @@
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.5.0",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.8.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -105,7 +123,7 @@
     },
     {
       "name": "qrcode",
-      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/git/qrcode-ef8888caa7675e3c989f6fe8f16182a6be20688a/qrcode",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/git/qrcode-7e9ed1ffcb8c1dee00b204b0199a731213144bda/qrcode",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -147,7 +165,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.0",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.6.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -158,10 +176,10 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "web",
-      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.4.0",
+      "name": "vm_service",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-13.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.0"
     },
     {
       "name": "qr_scanner",
@@ -170,7 +188,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-03-05T19:02:19.989869Z",
+  "generated": "2024-03-12T13:00:14.441020Z",
   "generator": "pub",
-  "generatorVersion": "3.2.3"
+  "generatorVersion": "3.3.1"
 }
