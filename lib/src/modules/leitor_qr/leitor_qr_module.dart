@@ -15,7 +15,7 @@ class LeitorQrModule extends ModuleWidget {
   List<Dependency> get dependencies => [];
 
   @override
-  Widget get view => const LeitorQrPage();
+  Widget get view => LeitorQrPage();
 
   static Inject get to => Inject<LeitorQrModule>.of();
 }
