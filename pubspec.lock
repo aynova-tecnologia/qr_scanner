@@ -165,10 +165,10 @@ packages:
     description:
       path: qrcode
       ref: HEAD
-      resolved-ref: "7e9ed1ffcb8c1dee00b204b0199a731213144bda"
-      url: "https://github.com/aynova-tecnologia/qrcode.git"
+      resolved-ref: d819f25f16d1353ba4fe681124b45c49d9ba6a97
+      url: "https://github.com/FabioZvir/qrcode.git"
     source: git
-    version: "1.0.8"
+    version: "1.0.5"
   sky_engine:
     dependency: transitive
     description: flutter
