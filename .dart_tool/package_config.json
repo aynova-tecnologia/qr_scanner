@@ -189,7 +189,7 @@
     },
     {
       "name": "web",
-      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.0",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -200,7 +200,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2025-02-26T19:47:26.560728Z",
+  "generated": "2025-02-27T16:38:29.401884Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///C:/flutter",
