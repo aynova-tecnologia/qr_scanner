@@ -129,7 +129,7 @@
     },
     {
       "name": "qrcode",
-      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/git/qrcode-d819f25f16d1353ba4fe681124b45c49d9ba6a97/qrcode",
+      "rootUri": "file:///C:/Users/fabio/AppData/Local/Pub/Cache/git/qrcode-962eaa963f12ef24cdffa67526707b540beb8cff/qrcode",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -200,7 +200,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2025-02-27T16:57:03.345650Z",
+  "generated": "2025-02-27T17:07:22.079743Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///C:/flutter",
